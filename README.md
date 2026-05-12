@@ -26,14 +26,14 @@ Combining pointers and arrays:
 - `findMaxPointer` — returns address of max element
 - `swapPointers` — swaps two elements using addresses
 
-## Key Concept
-`arr[i] == *(arr + i)` — arrays and pointers are connected at memory level.
-
 ### bubble-sort.cpp
 Sorting algorithm implementation:
 - Bubble sort — compares and swaps neighbors
 - Sorts array from smallest to largest
 - Time complexity: O(n²)
+  
+## Key Concept
+`arr[i] == *(arr + i)` — arrays and pointers are connected at memory level.
 
 ## Language
 C++ 100%
